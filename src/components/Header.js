@@ -6,7 +6,7 @@ import Barlist from "./Barlist"
 
 
 const Header = () => { 
-  const [showbar, setshowBar] = useState(true)
+  const [showbar, setshowBar] = useState(false)
   return (
         <div>
 
