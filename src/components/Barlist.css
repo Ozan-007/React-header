@@ -1,0 +1,28 @@
+.bar-list{
+    display: none;
+}
+@media only screen and (max-width: 1000px) {
+  .bar-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-direction: column;
+    height: 30vh;
+    background-color: rgb(57, 177, 185);
+    margin: 0;
+    color: black;
+    border-top: solid 1px white ;
+    
+  }
+
+  .bar-item {
+    text-decoration: none;
+    color:white;
+    
+  }
+
+  .bar-item:hover{
+    transition: all 0.3s ease-in;
+    font-size:130%;
+  }
+}
